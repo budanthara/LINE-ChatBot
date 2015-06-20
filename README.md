@@ -1,5 +1,5 @@
 # LINE-ChatBot
-LINE Messenger Chat Bot.
+LINE Messaging Chat Bot.
 # Requirements & Dependencies
 Libraries Needed: <br>
 - Python 2.7.x <br>
