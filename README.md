@@ -7,6 +7,9 @@ Libraries Needed: <br>
 - pip install pafy <br>
 - pip install goslate <br>
 
+# Screenshot
+![IMAGE ALT TEXT HERE](https://cloud.githubusercontent.com/assets/12862541/8268114/279263a2-17ab-11e5-9d08-6ec75ddfe23f.png)
+
 # Features
 
 - !botreply <pesan> -> Auto Reply Feature. <br>
@@ -19,16 +22,6 @@ Libraries Needed: <br>
 
 # Command Examples
 See the <b>command_examples.txt</b> file
-
-# Tips
-- If you need to run your bot everytime , run the bot via cronjob/crontab in your server. <br>
-- To Maximize the bot reply response, i suggest you to use this settings in your cron. <br>
-#
-<i>
-* * * * * sleep 15; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
-* * * * * sleep 30; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
-* * * * * sleep 45; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
-</i>
 
 # FAQ ( Frequently Asked Questions ) 
 <b>Q</b>: How can i get the authentication token ( authtoken ) ? <br>
