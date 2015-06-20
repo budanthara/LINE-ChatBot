@@ -35,7 +35,7 @@ See the <b>command_examples.txt</b> file
 
 # FAQ ( Frequently Asked Questions ) 
 <b>Q</b>: How can i get the authentication token ( authtoken ) ? <br>
-<b>A</b>: Reverse LINE's app protocol, Google or check the source code of LINE'S library.
+<b>A</b>: Just Google or check the source code of LINE's python library.
    Please, try to find it by yourself dude! <br>
 
 <b>Q</b>: Whoa, i got the authentication token! So, where i can put this ? <br>
