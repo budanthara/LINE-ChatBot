@@ -1,0 +1,35 @@
+Command examples to deploy the bot: 
+
+ _      _____ _   _ ______ 
+| |    |_   _| \ | |  ____|
+| |      | | |  \| | |__   
+| |      | | | . ` |  __|  
+| |____ _| |_| |\  | |____ 
+|______|_____|_| \_|______| CHATBOT
+
+[!] List:
+
+	- Showing groups only: ./linebot.py -sg or --showgroups
+	- Showing rooms only: ./linebot.py -sr or --showrooms
+	- Showing contacts only: ./linebot.py -sc or --showcontacts
+	- Showing all groups, rooms and contacts: ./linebot.py -sa or --showall
+
+[!] Groups: 
+
+	- Deploying the bot to all groups which gives a command: ./linebot.py --mode group --target all --execute 
+	- Deploying the bot with specific group target which gives a command: ./linebot.py --mode group --target "My Class Group" --execute
+	- Accepting invited group: ./linebot.py --accept-group "My Group"
+
+[!] Rooms: 
+
+	- Deploying the bot to all rooms which gives a command: ./linebot.py --mode room --target all --execute 
+	- Deploying the bot with specific room target which gives a command: ./linebot.py --mode room --target "Room1" --execute
+
+[!] Contacts:
+	
+	- Deploying the bot to specific contact target which gives a command: ./linebot.py --mode contact --target "Contact Name" --execute
+
+[!] Optional:
+
+	- Refreshing all groups, rooms and contacts: ./linebot.py -r or --refresh
+	- Need help? Just ./linebot.py -h
