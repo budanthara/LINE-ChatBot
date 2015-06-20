@@ -28,9 +28,9 @@ See the <b>command_examples.txt</b> file
 - To Maximize the bot reply response, i suggest you to use this settings in your cron.
 
 ```
-* * * * * sleep 15; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
-* * * * * sleep 30; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
-* * * * * sleep 45; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
+* * * * * sleep 15; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute
+* * * * * sleep 30; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute
+* * * * * sleep 45; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute
 ```
 
 # FAQ ( Frequently Asked Questions ) 
