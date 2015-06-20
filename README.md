@@ -23,6 +23,16 @@ Libraries Needed: <br>
 # Command Examples
 See the <b>command_examples.txt</b> file
 
+# Tips
+- If you need to run your bot everytime , run the bot via cronjob/crontab in your server. <br>
+- To Maximize the bot reply response, i suggest you to use this settings in your cron.
+
+```
+* * * * * sleep 15; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
+* * * * * sleep 30; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
+* * * * * sleep 45; python /home/user/public_html/linebot.py --mode your_mode --target your_target --execute <br>
+```
+
 # FAQ ( Frequently Asked Questions ) 
 <b>Q</b>: How can i get the authentication token ( authtoken ) ? <br>
 <b>A</b>: Reverse LINE's app protocol, Google or check the source code of LINE'S library.
