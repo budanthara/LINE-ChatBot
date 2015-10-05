@@ -14,7 +14,7 @@ Libraries Needed: <br>
 
 - !botreply <pesan> -> Auto Reply Feature. <br>
 - !botbioskop -> Giving you an information about now playing cinemas/films.<br>
-- !botkatamutiara -> Giving you a beatiful words.<br>
+- !botkatamutiara -> Giving you a beautiful words.<br>
 - !bottranslate <pesan> ( ID - EN / EN - ID) -> Translating from Indonesia to English, English to Indonesia.<br>
 - !botmeme -> Giving you a funny meme image from 1cak site.<br>
 - !botyoutubemp3 <url youtube> -> Giving you a link which has converted from Youtube's video to mp3.<br>
